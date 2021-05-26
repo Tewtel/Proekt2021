@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\labs\2semestr\ProektObnovaCode\AvitoRinger\HtmlAgilityPack.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{087DCE44-CA0F-455B-B29E-85B10F1CE407}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>HtmlAgilityPack</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.11.24.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>HtmlAgilityPack</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="crc32.cs" />
+    <Compile Include="EncodingFoundException.cs" />
+    <Compile Include="HtmlAttribute.cs" />
+    <Compile Include="AttributeValueQuote.cs" />
+    <Compile Include="HtmlAttributeCollection.cs" />
+    <Compile Include="HtmlCmdLine.cs" />
+    <Compile Include="HtmlCommentNode.cs" />
+    <Compile Include="HtmlConsoleListener.cs" />
+    <Compile Include="HtmlDocument.cs" />
+    <Compile Include="HtmlElementFlag.cs" />
+    <Compile Include="HtmlEntity.cs" />
+    <Compile Include="HtmlNameTable.cs" />
+    <Compile Include="HtmlNode.cs" />
+    <Compile Include="HtmlNode.Encapsulator.cs" />
+    <Compile Include="ReturnType.cs" />
+    <Compile Include="HasXPathAttribute.cs" />
+    <Compile Include="1HtmlNode.Encapsulator.cs" />
+    <Compile Include="SkipNodeNotFoundAttribute.cs" />
+    <Compile Include="2HtmlNode.Encapsulator.cs" />
+    <Compile Include="3HtmlNode.Encapsulator.cs" />
+    <Compile Include="4HtmlNode.Encapsulator.cs" />
+    <Compile Include="HtmlNodeCollection.cs" />
+    <Compile Include="HtmlNodeNavigator.cs" />
+    <Compile Include="HtmlNodeType.cs" />
+    <Compile Include="HtmlParseError.cs" />
+    <Compile Include="HtmlParseErrorCode.cs" />
+    <Compile Include="HtmlTextNode.cs" />
+    <Compile Include="HtmlWeb.cs" />
+    <Compile Include="HtmlWebException.cs" />
+    <Compile Include="IOLibrary.cs" />
+    <Compile Include="MimeTypeMap.cs" />
+    <Compile Include="MixedCodeDocument.cs" />
+    <Compile Include="MixedCodeDocumentCodeFragment.cs" />
+    <Compile Include="MixedCodeDocumentFragment.cs" />
+    <Compile Include="MixedCodeDocumentFragmentList.cs" />
+    <Compile Include="MixedCodeDocumentFragmentType.cs" />
+    <Compile Include="MixedCodeDocumentTextFragment.cs" />
+    <Compile Include="NameValuePairList.cs" />
+    <Compile Include="Trace.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

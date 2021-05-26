@@ -1,0 +1,4 @@
+D:\labs\2semestr\PROEKTSimpleCodeC#\AvtoRinger\System.Data.SQLite\obj\Debug\System.Data.SQLite.csprojAssemblyReference.cache
+D:\labs\2semestr\PROEKTSimpleCodeC#\AvtoRinger\System.Data.SQLite\obj\Debug\System.Data.SQLite.SR.resources
+D:\labs\2semestr\PROEKTSimpleCodeC#\AvtoRinger\System.Data.SQLite\obj\Debug\System.Data.SQLite.csproj.GenerateResource.cache
+D:\labs\2semestr\PROEKTSimpleCodeC#\AvtoRinger\System.Data.SQLite\obj\Debug\System.Data.SQLite.csproj.CoreCompileInputs.cache

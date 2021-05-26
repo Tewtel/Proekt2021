@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Нажми на кнопку старт, и найди в телеграмме своего бота по названию, введи в чат с ним комманду:    /avito, после чего это окно закроется, а все нужные данные подгрузятся в окно настроек, можешь поставить галочку отсылать в телеграмм, и не забудь нажать кнопку сохранить</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Для начала, найди в телеграмме бота BotFather, после того, как ты сделаешь это, нужно будет набрать /newbot , что означает новый бот, далее он предложит выбрать название для бота, введи на своё усмотрение, можно даже на русском, и после этого он попросит ввести имя бота, оно должнобыть уникальным и заканчиваться на _bot, допустим Avito2018_bot
+Если всё правильно сделано, то телеграмм выдаст тебе токен бота, его нужно скопировать и вставить в поле ниже, токен будет формата</value>
+  </data>
+  <data name="pictureBox1.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+</root>

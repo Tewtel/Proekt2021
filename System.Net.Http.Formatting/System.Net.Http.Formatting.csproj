@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\labs\2semestr\ProektObnovaCode\AvitoRinger\System.Net.Http.Formatting.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0FE35EF-F726-4436-BE53-8DD3883594D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>System.Net.Http.Formatting</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>5.2.7.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>System</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Threading\Tasks\TaskHelpers.cs" />
+    <Compile Include="Threading\Tasks\TaskHelpersExtensions.cs" />
+    <Compile Include="Collections\Generic\CollectionExtensions.cs" />
+    <Compile Include="Collections\ObjectModel\ListWrapperCollection`1.cs" />
+    <Compile Include="Web\Http\Error.cs" />
+    <Compile Include="Web\Http\UriQueryUtility.cs" />
+    <Compile Include="Web\Http\Properties\CommonWebApiResources.cs" />
+    <Compile Include="Net\Http\ByteRangeStreamContent.cs" />
+    <Compile Include="Net\Http\CloneableExtensions.cs" />
+    <Compile Include="Net\Http\HttpContentFormDataExtensions.cs" />
+    <Compile Include="Net\Http\MultipartFormDataRemoteStreamProvider.cs" />
+    <Compile Include="Net\Http\MultipartFormDataStreamProviderHelper.cs" />
+    <Compile Include="Net\Http\MultipartRemoteFileData.cs" />
+    <Compile Include="Net\Http\RemoteStreamInfo.cs" />
+    <Compile Include="Net\Http\UnsupportedMediaTypeException.cs" />
+    <Compile Include="Net\Http\TypeExtensions.cs" />
+    <Compile Include="Net\Http\InvalidByteRangeException.cs" />
+    <Compile Include="Net\Http\MultipartRelatedStreamProvider.cs" />
+    <Compile Include="Net\Http\MultipartFileData.cs" />
+    <Compile Include="Net\Http\MultipartStreamProvider.cs" />
+    <Compile Include="Net\Http\ObjectContent`1.cs" />
+    <Compile Include="Net\Http\PushStreamContent.cs" />
+    <Compile Include="Net\Http\HttpClientFactory.cs" />
+    <Compile Include="Net\Http\HttpResponseHeadersExtensions.cs" />
+    <Compile Include="Net\Http\HttpRequestHeadersExtensions.cs" />
+    <Compile Include="Net\Http\HttpClientExtensions.cs" />
+    <Compile Include="Net\Http\HttpRequestMessageExtensions.cs" />
+    <Compile Include="Net\Http\FormattingUtilities.cs" />
+    <Compile Include="Net\Http\HttpContentExtensions.cs" />
+    <Compile Include="Net\Http\HttpContentMessageExtensions.cs" />
+    <Compile Include="Net\Http\HttpContentMultipartExtensions.cs" />
+    <Compile Include="Net\Http\HttpHeaderExtensions.cs" />
+    <Compile Include="Net\Http\HttpMessageContent.cs" />
+    <Compile Include="Net\Http\HttpUnsortedHeaders.cs" />
+    <Compile Include="Net\Http\HttpUnsortedRequest.cs" />
+    <Compile Include="Net\Http\HttpUnsortedResponse.cs" />
+    <Compile Include="Net\Http\MimeBodyPart.cs" />
+    <Compile Include="Net\Http\MultipartFileStreamProvider.cs" />
+    <Compile Include="Net\Http\MultipartFormDataStreamProvider.cs" />
+    <Compile Include="Net\Http\MultipartMemoryStreamProvider.cs" />
+    <Compile Include="Net\Http\ObjectContent.cs" />
+    <Compile Include="Net\Http\UriExtensions.cs" />
+    <Compile Include="Net\Http\Headers\CookieHeaderValue.cs" />
+    <Compile Include="Net\Http\Headers\CookieState.cs" />
+    <Compile Include="Net\Http\Formatting\BaseJsonMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\BsonMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeHeaderValueRange.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeHeaderValueExtensions.cs" />
+    <Compile Include="Net\Http\Formatting\StringWithQualityHeaderValueComparer.cs" />
+    <Compile Include="Net\Http\Formatting\FormDataCollection.cs" />
+    <Compile Include="Net\Http\Formatting\ContentNegotiationResult.cs" />
+    <Compile Include="Net\Http\Formatting\FormUrlEncodedJson.cs" />
+    <Compile Include="Net\Http\Formatting\IFormatterLogger.cs" />
+    <Compile Include="Net\Http\Formatting\IRequiredMemberSelector.cs" />
+    <Compile Include="Net\Http\Formatting\JsonContractResolver.cs" />
+    <Compile Include="Net\Http\Formatting\BufferedMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\DelegatingEnumerable`1.cs" />
+    <Compile Include="Net\Http\Formatting\DefaultContentNegotiator.cs" />
+    <Compile Include="Net\Http\Formatting\FormUrlEncodedMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\IContentNegotiator.cs" />
+    <Compile Include="Net\Http\Formatting\JsonMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeConstants.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeFormatterCollection.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeFormatterExtensions.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeWithQualityHeaderValueComparer.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeMapping.cs" />
+    <Compile Include="Net\Http\Formatting\ParsedMediaTypeHeaderValue.cs" />
+    <Compile Include="Net\Http\Formatting\QueryStringMapping.cs" />
+    <Compile Include="Net\Http\Formatting\RequestHeaderMapping.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeFormatterMatchRanking.cs" />
+    <Compile Include="Net\Http\Formatting\MediaTypeFormatterMatch.cs" />
+    <Compile Include="Net\Http\Formatting\StringComparisonHelper.cs" />
+    <Compile Include="Net\Http\Formatting\XmlHttpRequestHeaderMapping.cs" />
+    <Compile Include="Net\Http\Formatting\XmlMediaTypeFormatter.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\FormUrlEncodedParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\HttpRequestHeaderParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\HttpRequestLineParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\HttpResponseHeaderParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\HttpStatusLineParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\InternetMessageFormatHeaderParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\MimeMultipartBodyPartParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\MimeMultipartParser.cs" />
+    <Compile Include="Net\Http\Formatting\Parsers\ParserState.cs" />
+    <Compile Include="Net\Http\Formatting\Internal\HttpValueCollection.cs" />
+    <Compile Include="Net\Http\Internal\ByteRangeStream.cs" />
+    <Compile Include="Net\Http\Internal\ReadOnlyStreamWithEncodingPreamble.cs" />
+    <Compile Include="Net\Http\Internal\AsyncResult.cs" />
+    <Compile Include="Net\Http\Internal\NonClosingDelegatingStream.cs" />
+    <Compile Include="Net\Http\Internal\DelegatingStream.cs" />
+    <Compile Include="Net\Http\Handlers\HttpProgressEventArgs.cs" />
+    <Compile Include="Net\Http\Handlers\ProgressContent.cs" />
+    <Compile Include="Net\Http\Handlers\ProgressMessageHandler.cs" />
+    <Compile Include="Net\Http\Handlers\ProgressStream.cs" />
+    <Compile Include="Net\Http\Handlers\ProgressWriteAsyncResult.cs" />
+    <Compile Include="Net\Http\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Net\Http\Properties\CommonWebApiResources.resx" />
+    <EmbeddedResource Include="Net\Http\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

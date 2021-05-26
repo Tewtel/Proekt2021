@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\labs\2semestr\ProektObnovaCode\AvitoRinger\System.Data.SQLite.Linq.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34092A83-41C6-4552-9869-61BF512F2068}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>System.Data.SQLite.Linq</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.112.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>System.Data.SQLite.Linq</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>lib\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DmlSqlGenerator.cs" />
+    <Compile Include="InternalBase.cs" />
+    <Compile Include="ISqlFragment.cs" />
+    <Compile Include="Symbol.cs" />
+    <Compile Include="JoinSymbol.cs" />
+    <Compile Include="KeyToListMap`2.cs" />
+    <Compile Include="MetadataHelpers.cs" />
+    <Compile Include="SkipClause.cs" />
+    <Compile Include="SqlBuilder.cs" />
+    <Compile Include="SqlChecker.cs" />
+    <Compile Include="SqlGenerator.cs" />
+    <Compile Include="SqlSelectStatement.cs" />
+    <Compile Include="SqlWriter.cs" />
+    <Compile Include="StringUtil.cs" />
+    <Compile Include="SymbolPair.cs" />
+    <Compile Include="SymbolTable.cs" />
+    <Compile Include="TopClause.cs" />
+    <Compile Include="SQLiteProviderFactory.cs" />
+    <Compile Include="SQLiteProviderManifest.cs" />
+    <Compile Include="SQLiteProviderServices.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\Data\SQLite\Common\ConceptualSchemaDefinition.csdl" />
+    <EmbeddedResource Include="System\Data\SQLite\Properties.resx" />
+    <EmbeddedResource Include="System\Data\SQLite\SQLiteProviderServices\ProviderManifest.xml" />
+    <EmbeddedResource Include="System\Data\SQLite\SQLiteProviderServices\StoreSchemaDefinition.ssdl" />
+    <EmbeddedResource Include="System\Data\SQLite\SQLiteProviderServices\StoreSchemaMapping.msl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

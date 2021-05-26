@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\labs\2semestr\ProektObnovaCode\AvitoRinger\System.Data.SQLite.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47979104-05F1-4B3E-BE93-FEB848CC4773}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>System.Data.SQLite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.112.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>System.Data.SQLite</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblySourceIdAttribute.cs" />
+    <Compile Include="AssemblySourceTimeStampAttribute.cs" />
+    <Compile Include="SQLiteLogCallback.cs" />
+    <Compile Include="SQLiteConvert.cs" />
+    <Compile Include="SQLiteBase.cs" />
+    <Compile Include="SQLite3.cs" />
+    <Compile Include="SQLite3_UTF16.cs" />
+    <Compile Include="SQLiteBackup.cs" />
+    <Compile Include="ISQLiteSchemaExtensions.cs" />
+    <Compile Include="SQLiteOpenFlagsEnum.cs" />
+    <Compile Include="SQLiteConnectionFlags.cs" />
+    <Compile Include="SQLiteStatusOpsEnum.cs" />
+    <Compile Include="SQLiteConfigDbOpsEnum.cs" />
+    <Compile Include="SQLiteConfigOpsEnum.cs" />
+    <Compile Include="SQLiteTraceFlags.cs" />
+    <Compile Include="SQLiteLimitOpsEnum.cs" />
+    <Compile Include="SQLiteBlob.cs" />
+    <Compile Include="SQLiteCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteCommandBuilder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteDataReaderValue.cs" />
+    <Compile Include="SQLiteReadEventArgs.cs" />
+    <Compile Include="SQLiteReadBlobEventArgs.cs" />
+    <Compile Include="SQLiteReadArrayEventArgs.cs" />
+    <Compile Include="SQLiteReadValueEventArgs.cs" />
+    <Compile Include="SQLiteBindValueCallback.cs" />
+    <Compile Include="SQLiteReadValueCallback.cs" />
+    <Compile Include="SQLiteTypeCallbacks.cs" />
+    <Compile Include="SQLiteTypeCallbacksMap.cs" />
+    <Compile Include="ConnectionEventArgs.cs" />
+    <Compile Include="SQLiteConnectionEventHandler.cs" />
+    <Compile Include="SQLiteConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SynchronizationModes.cs" />
+    <Compile Include="SQLiteProgressCallback.cs" />
+    <Compile Include="SQLiteAuthorizerCallback.cs" />
+    <Compile Include="SQLiteUpdateCallback.cs" />
+    <Compile Include="SQLiteCommitCallback.cs" />
+    <Compile Include="SQLiteTraceCallback.cs" />
+    <Compile Include="SQLiteTraceCallback2.cs" />
+    <Compile Include="SQLiteRollbackCallback.cs" />
+    <Compile Include="SQLiteProgressEventHandler.cs" />
+    <Compile Include="SQLiteAuthorizerEventHandler.cs" />
+    <Compile Include="SQLiteCommitHandler.cs" />
+    <Compile Include="SQLiteUpdateEventHandler.cs" />
+    <Compile Include="SQLiteTraceEventHandler.cs" />
+    <Compile Include="SQLiteBackupCallback.cs" />
+    <Compile Include="ProgressEventArgs.cs" />
+    <Compile Include="AuthorizerEventArgs.cs" />
+    <Compile Include="UpdateEventType.cs" />
+    <Compile Include="UpdateEventArgs.cs" />
+    <Compile Include="CommitEventArgs.cs" />
+    <Compile Include="TraceEventArgs.cs" />
+    <Compile Include="ISQLiteConnectionPool.cs" />
+    <Compile Include="SQLiteConnectionPool.cs" />
+    <Compile Include="SQLiteConnectionStringBuilder.cs" />
+    <Compile Include="TypeAffinity.cs" />
+    <Compile Include="SQLiteConnectionEventType.cs" />
+    <Compile Include="SQLiteDateFormats.cs" />
+    <Compile Include="SQLiteJournalModeEnum.cs" />
+    <Compile Include="SQLiteSynchronousEnum.cs" />
+    <Compile Include="SQLiteExecuteType.cs" />
+    <Compile Include="SQLiteAuthorizerActionCode.cs" />
+    <Compile Include="SQLiteProgressReturnCode.cs" />
+    <Compile Include="SQLiteAuthorizerReturnCode.cs" />
+    <Compile Include="SQLiteType.cs" />
+    <Compile Include="SQLiteDbTypeMap.cs" />
+    <Compile Include="SQLiteDbTypeMapping.cs" />
+    <Compile Include="TypeNameStringComparer.cs" />
+    <Compile Include="SQLiteDataAdapter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQLiteDataReader.cs" />
+    <Compile Include="SQLiteDefineConstants.cs" />
+    <Compile Include="SQLiteException.cs" />
+    <Compile Include="SQLiteErrorCode.cs" />
+    <Compile Include="SQLiteFactory.cs" />
+    <Compile Include="SQLiteFunction.cs" />
+    <Compile Include="SQLiteInvokeDelegate.cs" />
+    <Compile Include="SQLiteStepDelegate.cs" />
+    <Compile Include="SQLiteFinalDelegate.cs" />
+    <Compile Include="SQLiteCompareDelegate.cs" />
+    <Compile Include="SQLiteDelegateFunction.cs" />
+    <Compile Include="SQLiteFunctionEx.cs" />
+    <Compile Include="FunctionType.cs" />
+    <Compile Include="SQLiteCallback.cs" />
+    <Compile Include="SQLiteFinalCallback.cs" />
+    <Compile Include="SQLiteCollation.cs" />
+    <Compile Include="CollationTypeEnum.cs" />
+    <Compile Include="CollationEncodingEnum.cs" />
+    <Compile Include="CollationSequence.cs" />
+    <Compile Include="SQLiteFunctionAttribute.cs" />
+    <Compile Include="SQLiteKeyReader.cs" />
+    <Compile Include="LogEventArgs.cs" />
+    <Compile Include="SQLiteLogEventHandler.cs" />
+    <Compile Include="SQLiteLog.cs" />
+    <Compile Include="SQLiteMetaDataCollectionNames.cs" />
+    <Compile Include="SQLiteParameter.cs" />
+    <Compile Include="SQLiteParameterCollection.cs" />
+    <Compile Include="SQLiteStatement.cs" />
+    <Compile Include="SQLiteTransactionBase.cs" />
+    <Compile Include="SQLiteTransaction.cs" />
+    <Compile Include="SQLiteTransaction2.cs" />
+    <Compile Include="HelperMethods.cs" />
+    <Compile Include="NativeLibraryHelper.cs" />
+    <Compile Include="UnsafeNativeMethodsPosix.cs" />
+    <Compile Include="UnsafeNativeMethodsWin32.cs" />
+    <Compile Include="UnsafeNativeMethods.cs" />
+    <Compile Include="SQLiteConnectionHandle.cs" />
+    <Compile Include="SQLiteStatementHandle.cs" />
+    <Compile Include="SQLiteBackupHandle.cs" />
+    <Compile Include="SQLiteBlobHandle.cs" />
+    <Compile Include="SR.cs" />
+    <Compile Include="SQLiteEnlistment.cs" />
+    <Compile Include="ISQLiteNativeModule.cs" />
+    <Compile Include="ISQLiteNativeHandle.cs" />
+    <Compile Include="SQLiteContext.cs" />
+    <Compile Include="SQLiteValue.cs" />
+    <Compile Include="SQLiteIndexConstraintOp.cs" />
+    <Compile Include="SQLiteIndexFlags.cs" />
+    <Compile Include="SQLiteIndexConstraint.cs" />
+    <Compile Include="SQLiteIndexOrderBy.cs" />
+    <Compile Include="SQLiteIndexConstraintUsage.cs" />
+    <Compile Include="SQLiteIndexInputs.cs" />
+    <Compile Include="SQLiteIndexOutputs.cs" />
+    <Compile Include="SQLiteIndex.cs" />
+    <Compile Include="SQLiteVirtualTable.cs" />
+    <Compile Include="SQLiteVirtualTableCursor.cs" />
+    <Compile Include="ISQLiteManagedModule.cs" />
+    <Compile Include="SQLiteMemory.cs" />
+    <Compile Include="SQLiteString.cs" />
+    <Compile Include="SQLiteBytes.cs" />
+    <Compile Include="SQLiteMarshal.cs" />
+    <Compile Include="SQLiteModule.cs" />
+    <Compile Include="SQLiteModuleNoop.cs" />
+    <Compile Include="SQLiteModuleCommon.cs" />
+    <Compile Include="SQLiteVirtualTableCursorEnumerator.cs" />
+    <Compile Include="SQLiteModuleEnumerable.cs" />
+    <Compile Include="SQLiteChangeSetConflictType.cs" />
+    <Compile Include="SQLiteChangeSetConflictResult.cs" />
+    <Compile Include="SQLiteChangeSetStartFlags.cs" />
+    <Compile Include="SessionTableFilterCallback.cs" />
+    <Compile Include="SessionConflictCallback.cs" />
+    <Compile Include="ISQLiteChangeSet.cs" />
+    <Compile Include="ISQLiteChangeGroup.cs" />
+    <Compile Include="ISQLiteChangeSetMetadataItem.cs" />
+    <Compile Include="ISQLiteSession.cs" />
+    <Compile Include="SQLiteSessionHelpers.cs" />
+    <Compile Include="SQLiteConnectionLock.cs" />
+    <Compile Include="SQLiteChangeSetIterator.cs" />
+    <Compile Include="SQLiteMemoryChangeSetIterator.cs" />
+    <Compile Include="SQLiteStreamChangeSetIterator.cs" />
+    <Compile Include="SQLiteStreamAdapter.cs" />
+    <Compile Include="SQLiteSessionStreamManager.cs" />
+    <Compile Include="SQLiteChangeGroup.cs" />
+    <Compile Include="SQLiteSession.cs" />
+    <Compile Include="SQLiteChangeSetBase.cs" />
+    <Compile Include="SQLiteMemoryChangeSet.cs" />
+    <Compile Include="SQLiteStreamChangeSet.cs" />
+    <Compile Include="SQLiteChangeSetEnumerator.cs" />
+    <Compile Include="SQLiteMemoryChangeSetEnumerator.cs" />
+    <Compile Include="SQLiteStreamChangeSetEnumerator.cs" />
+    <Compile Include="SQLiteChangeSetMetadataItem.cs" />
+    <Compile Include="Generic\SQLiteVirtualTableCursorEnumerator`1.cs" />
+    <Compile Include="Generic\SQLiteModuleEnumerable`1.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\SQLiteCommand.bmp" />
+    <EmbeddedResource Include="Resources\SQLiteConnection.bmp" />
+    <EmbeddedResource Include="Resources\SQLiteDataAdapter.bmp" />
+    <EmbeddedResource Include="SR.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
